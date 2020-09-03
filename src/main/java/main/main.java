@@ -28,4 +28,9 @@ public class main {
         if(a + b > 10 && a + b <= 20){return true;}
         else return false;
     }
+
+    public static boolean check2(int a){
+        if(a < 0){return true;}
+        else return false;
+    }
 }
