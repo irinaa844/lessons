@@ -23,4 +23,9 @@ public class main {
         System.out.println(a *(b+(c/d)));
         return 0;
     }
+
+    public static boolean check1(int a, int b){
+        if(a + b > 10 && a + b <= 20){return true;}
+        else return false;
+    }
 }
