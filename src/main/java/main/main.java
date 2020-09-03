@@ -33,4 +33,10 @@ public class main {
         if(a < 0){return true;}
         else return false;
     }
+
+    public static int check3(String a){
+        System.out.println("Привет, ");
+        System.out.println(a);
+        return 0;
+    }
 }
